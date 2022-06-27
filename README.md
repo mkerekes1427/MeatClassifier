@@ -1,7 +1,7 @@
 # MeatClassifier
 Kaggle dataset: https://www.kaggle.com/datasets/crowww/meat-quality-assessment-based-on-deep-learning
 
-
+The picture files uploaded in the repo are only a few of the pictures on the Kaggle website.
 
 This was a personal project that I did using the concepts I had learned from watching YouTube videos and doing some googling on my own, regarding
 tensorflow, Streamlit, and how to make a convolutional neural network. Gabriel Atkin's "Data Every Day" YouTube series were excellent videos that
