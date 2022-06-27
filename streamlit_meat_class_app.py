@@ -3,7 +3,7 @@ import tensorflow as tf
 import streamlit as st
 
 st.set_page_config(page_title="Meat Classifier", page_icon="🥩", layout="wide")
-MODEL = tf.keras.models.load_model("Meat Classifier/meat_classifier_transfer_cnn_model.h5")
+MODEL = tf.keras.models.load_model("meat_classifier_transfer_cnn_model.h5")
 
 def spacing(num_spaces):
     for i in range(num_spaces):
@@ -84,7 +84,7 @@ with fresh_col:
     fresh_img_expander = st.expander("Toggle Fresh Image", expanded=True)
 
     with fresh_img_expander:
-        st.image("Meat Classifier/Fresh/test_20171016_175521D.jpg")
+        st.image("test_20171016_175521D.jpg")
     
 with spoiled_col:
 
@@ -93,7 +93,7 @@ with spoiled_col:
     spoiled_img_expander = st.expander("Toggle Spoiled Image", expanded=True)
 
     with spoiled_img_expander:
-        st.image("Meat Classifier/Spoiled/test_20171017_233921D.jpg")
+        st.image("test_20171018_233921D.jpg")
 
 spacing(4)
 
@@ -122,11 +122,11 @@ heatmap_col, classification_report_col = st.columns(2)
 
 with heatmap_col:
     st.markdown("""<h1 class="centerclass">Confusion Matrix</h1>""", unsafe_allow_html=True)
-    st.image("Meat Classifier/heatmap.png")
+    st.image("heatmap.png")
 
 with classification_report_col:
     st.markdown("""<h1 class="centerclass">Classification Report Stats</h1>""", unsafe_allow_html=True)
-    st.image("Meat Classifier/class_report.png")
+    st.image("class_report.png")
 
 spacing(5)
 
