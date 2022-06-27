@@ -20,6 +20,8 @@ theoretically upload any image of meat, it wouldn't correctly classify it becaus
 and testing. So, the model would get confused. Nevertheless, this project was a good learning experience, and it could be used in a similar fashion 
 for a company who takes automated pictures of the samples and is looking to detect expiration.
 
+Deployment was done with Heroku and these two links were helpful: https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku/ https://www.youtube.com/watch?v=nJHrSvYxzjE
+
 The citation for the dataset and the kaggle link are also included in the web app as well as my Kaggle profile and GitHub repository for this app.
 
 Citation:
