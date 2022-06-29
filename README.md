@@ -22,7 +22,8 @@ for a company who takes automated pictures of the samples and is looking to dete
 
 I was concerned that the timestamped black bar in the top left corner of the supplied data images was unduly influencing the model's prediction.
 To test for this, I cropped the photos and retrained the model and tested, yet I still achieved around a 98.6% accuracy although the confusion matrix
-showed 3 false negatives and 2 false positives as opposed to the original 1 false negative and 4 false positives. I realized that the timestamp would
+showed 3 false negatives and 2 false positives as opposed to the original 1 false negative and 4 false positives. The classification report was also
+slightly different with the two precision and recall values but only by 1%. I realized that the timestamp would
 be a problem after I had deployed my app. Nonetheless, it appears from my Kaggle testing that the accuracy is not significantly affected so I
 left my Github files and results alone and didn't update them. I also didn't redeploy through Heroku.
 
