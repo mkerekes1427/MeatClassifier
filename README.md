@@ -20,6 +20,13 @@ theoretically upload any image of meat, it wouldn't correctly classify it becaus
 and testing. So, the model would get confused. Nevertheless, this project was a good learning experience, and it could be used in a similar fashion 
 for a company who takes automated pictures of the samples and is looking to detect expiration.
 
+I was concerned that the timestamped black bar in the top left corner of the supplied data images was unduly influencing the model's prediction.
+To test for this, I cropped the photos and retrained the model and tested, yet I still achieved around a 98.6% accuracy although the confusion matrix
+showed 3 false negatives and 2 false positives as opposed to the original 1 false negative and 4 false positives. I realized that the timestamp would
+be a problem after I had deployed my app. Nonetheless, it appears from my Kaggle testing that the accuracy is not significantly affected so I
+left my Github files and results alone and didn't update them. I also didn't redeploy through Heroku.
+
+
 Deployment was done with Heroku and these two links were helpful: https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku/ https://www.youtube.com/watch?v=nJHrSvYxzjE
 
 The citation for the dataset and the kaggle link are also included in the web app as well as my Kaggle profile and GitHub repository for this app.
