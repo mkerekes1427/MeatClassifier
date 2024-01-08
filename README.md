@@ -28,7 +28,9 @@ be a problem after I had deployed my app. Nonetheless, it appears from my Kaggle
 left my Github files and results alone and didn't update them. I also didn't redeploy through Heroku.
 
 
-Deployment was done with Heroku and these two links were helpful: https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku/ https://www.youtube.com/watch?v=nJHrSvYxzjE
+Deployment was originally done with Heroku and these two links were helpful: https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku/ https://www.youtube.com/watch?v=nJHrSvYxzjE
+
+However, free support for Heroku was discontinued, so I then deployed with Streamlit's cloud service, and that is what is used currently. 
 
 The citation for the dataset and the kaggle link are also included in the web app as well as my Kaggle profile and GitHub repository for this app.
 
