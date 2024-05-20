@@ -46,3 +46,6 @@ organization={IEEE}
 
 O.Ulucan , D.Karakaya and M.Turkan.(2019) Meat quality assessment based on deep learning.
 In Conf. Innovations Intell. Syst. Appli. (ASYU)
+
+
+![metrics](metrics.png)
